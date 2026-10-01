@@ -4,4 +4,5 @@ hosts: localhost
 gather_facts: false
 tasks:
   name: hello world
-    ansible.builtin.debug: "Hello world"
+    ansible.builtin.debug:
+      msg: "Hello world"
