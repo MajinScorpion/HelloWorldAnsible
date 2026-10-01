@@ -1,0 +1,7 @@
+---
+name: hello world
+hosts: localhost
+gather_facts: false
+tasks:
+  name: hello world
+    ansible.builtin.debug: "Hello world"
